@@ -1,0 +1,32 @@
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a; 
+    color: #fff; 
+}
+
+.dashboard-container .container {
+    text-align: center;
+}
+
+.dashboard-container .currency-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard-container .currency {
+    background-color: #555; 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.dashboard-container h1,
+.dashboard-container h3 {
+    color: #e6e3e3; 
+}
+
